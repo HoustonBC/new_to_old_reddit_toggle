@@ -1,0 +1,19 @@
+{
+    "name": "New To Old Reddit Toggle",
+    "version": "1.0.0",
+    "description": "Toggle to swap back and forth between new and old Reddit",
+    "manifest_version": 3,
+    "icons": {
+        "48": "icons/new48.png",
+        "128": "icons/new128.png"
+    },
+    "action": {
+        "default_icon": "icons/new128.png"
+    },
+    "background": {
+        "service_worker": "urlSwitcher.js"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
